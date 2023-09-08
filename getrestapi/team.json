@@ -1,0 +1,20 @@
+{
+    "team_name": "Example Cricket Team",
+    "players": [
+        {
+            "id": 1,
+            "name": "Player 1",
+            "role": "Batsman"
+        },
+        {
+            "id": 2,
+            "name": "Player 2",
+            "role": "Bowler"
+        },
+        {
+            "id": 3,
+            "name": "Player 3",
+            "role": "All-rounder"
+        }
+    ]
+}
