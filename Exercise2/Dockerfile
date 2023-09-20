@@ -5,8 +5,8 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # Copy the Python script to the container
-COPY serviceprovider.py /app
-COPY config_file.json /app
+COPY Exercise2/serviceprovider.py /app
+COPY Exercise2/config_file.json /app
 
 # Run the Python script when the container launches
 ENTRYPOINT ["python", "serviceprovider.py"]
